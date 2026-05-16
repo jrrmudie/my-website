@@ -82,7 +82,7 @@ nav ul li a.active {
   align-items: center;
   justify-content: space-between;
   gap: 64px;
-  padding: 64px 56px;
+  padding: 96px 56px;
   width: 100%;
   max-width: 1000px;
 }
@@ -116,6 +116,17 @@ nav ul li a.active {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--mid-gray);
+  margin-bottom: 24px;
+}
+
+.home-bio {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #3a3a3a;
+  max-width: 380px;
+  margin-top: 52px;
 }
 
 @media (max-width: 600px) {
